@@ -1,5 +1,9 @@
 package com.stevenckwong.rallyintegration;
 
+import java.io.IOException;
+import java.net.URI;
+import com.rallydev.rest.RallyRestApi;
+
 public class MyUtility {
 	
 	public MyUtility() {
@@ -16,5 +20,29 @@ public class MyUtility {
 		String displayName = result.substring(startIndex, endIndex);
 		return displayName;
 	}	
+	
+	
+	
+	public String logTestRunResult(String testID, String testResult, String buildNumber) {
+		
+		String apiKey = "_CGJbIEnhQDq45u70AWVPFcMsEmGCkO6tZEhYDyg5Dw";
+
+		URI uri = URI.create("https://rally1.rallydev.com");
+		
+		// RallyRestApi rally = new RallyRestApi(uri, username, password);
+		RallyRestApi rally = new RallyRestApi(uri, apiKey);
+		
+//		String QueryString = "(UserName%20%3D%20"+username+")&start=1&pagesize=20";
+//		String queryURL = "/user?query=" + QueryString + "&order=";		
+
+		try {
+			rally.close();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		return "Success";
+	}
 
 }
