@@ -39,11 +39,12 @@ public class LoginGetNameServlet extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		String username = request.getParameter("username");
-		String password = request.getParameter("password");
+		String apikey = request.getParameter("apikey");
 		
 		URI uri = URI.create("https://rally1.rallydev.com");
 		
-		RallyRestApi rally = new RallyRestApi(uri, username, password);
+		//RallyRestApi rally = new RallyRestApi(uri, username, password);
+		RallyRestApi rally = new RallyRestApi(uri,apikey);
 		String QueryString = "(UserName%20%3D%20"+username+")&start=1&pagesize=20";
 		String queryURL = "/user?query=" + QueryString + "&order=";
 

@@ -32,15 +32,16 @@ public class TestLoginGetNameService {
 		usernameBox.clear();
 		usernameBox.sendKeys("tm1-b1@stevenckwong.com");
 		
-		WebElement passwordBox = driver.findElement(By.name("password"));
-		passwordBox.sendKeys("P@ss1234");
+		WebElement apikeyBox = driver.findElement(By.name("apikey"));
+		apikeyBox.clear();
+		apikeyBox.sendKeys("_x3imUPkjQdiySkvNCrs0d03TiJhzCkkEmswt6fpHOao");
 		
 		//WebElement loginButton = driver.findElement(By.name("loginbutton"));
 		WebElement loginButton = driver.findElement(By.id("loginbutton"));
 		loginButton.click();
 		
-		Thread.sleep(5000);
-		WebElement hiddenDisplayName = driver.findElement(By.name("displayName"));
+		Thread.sleep(3000);
+		WebElement hiddenDisplayName = driver.findElement(By.id("displayName"));
 		String displayName = hiddenDisplayName.getAttribute("value");
 		
 		assertEquals("I'm Team Member 1 for B1",displayName);
