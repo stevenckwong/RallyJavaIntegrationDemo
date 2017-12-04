@@ -43,8 +43,9 @@ public class TestLoginGetNameService {
 		Thread.sleep(3000);
 		WebElement hiddenDisplayName = driver.findElement(By.id("displayName"));
 		String displayName = hiddenDisplayName.getAttribute("value");
-		
+		System.out.println("Display Name: " + displayName);
 		assertEquals("I'm Team Member 1 for B1",displayName);
+		
 		
 		// Thread.sleep(2000);
 		driver.quit();
