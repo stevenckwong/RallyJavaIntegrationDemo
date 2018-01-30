@@ -14,6 +14,9 @@ public class TestLoginGetNameService {
 	@Test
 	public void test() {
 		// fail("Not yet implemented");
+		
+		
+		
 		try {
 			this.runTest();
 		} catch (InterruptedException e) {
@@ -25,8 +28,10 @@ public class TestLoginGetNameService {
 	
 	private void runTest() throws InterruptedException {
 		
+		// System.setProperty("webdriver.chrome.driver", "/Users/steven/Applications/chromedriver");
+		
 		WebDriver driver = new ChromeDriver();
-		driver.get("http://localhost:8888/RallyJavaIntegrationDemo/index.html");
+		driver.get("http://localhost:8080/RallyJavaIntegrationDemo/index.html");
 		
 		WebElement usernameBox = driver.findElement(By.name("username"));
 		usernameBox.clear();
