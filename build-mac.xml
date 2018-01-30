@@ -3,14 +3,14 @@
     <!-- project-specific variables -->
     <property name="jsp.dir.name" value="RallyJavaIntegrationDemo" />
     <property name="package.name" value="${jsp.dir.name}.war" />
-    <property name="webapp.dir" value="/Users/steven/Applications/apache-tomcat-8.5.27/webapps" />
+    <property name="webapp.dir" value="/opt/apache-tomcat-8.5.27/webapps" />
 
     <property environment="env" />
     <property name="build.dir" value="build" />
     <property file="${build.dir}/build.${env.HOSTNAME}" />
 
     <property name="lib.dir" value="WebContent\WEB-INF\lib" />
-	<property name="tomcat.lib.dir" value="/Users/steven/Applications/apache-tomcat-8.5.27/lib" />
+	<property name="tomcat.lib.dir" value="/opt/apache-tomcat-8.5.27/lib" />
     <property name="src.dir" value="src" />
     <property name="src.tests.dir" value="src-tests" />
 	<property name="pages.dir" value="WebContent" />
