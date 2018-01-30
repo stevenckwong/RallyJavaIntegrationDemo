@@ -39,7 +39,8 @@ public class TestLoginGetNameService {
 		
 		WebElement apikeyBox = driver.findElement(By.name("apikey"));
 		apikeyBox.clear();
-		apikeyBox.sendKeys("_x3imUPkjQdiySkvNCrs0d03TiJhzCkkEmswt6fpHOao");
+		// apikeyBox.sendKeys("_x3imUPkjQdiySkvNCrs0d03TiJhzCkkEmswt6fpHOao");
+		apikeyBox.sendKeys("_x3imUPkjQdiySkvNCrs0d03TiJhzCkkEmswt6fpHOxx");
 		
 		//WebElement loginButton = driver.findElement(By.name("loginbutton"));
 		WebElement loginButton = driver.findElement(By.id("loginbutton"));
