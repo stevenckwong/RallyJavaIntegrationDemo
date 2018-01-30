@@ -121,7 +121,7 @@
 
 	<!-- Test after INSTALL -->
 	<target name="PostInstallTest" depends="install">
-		<junit fork="yes" >
+		<junit fork="yes" haltonerror="on" >
 			<jvmarg value="-Dwebdriver.chrome.driver=/opt/chromedriver" />
 			<classpath refid="build.class.path"  />
 			<classpath path="${temp.dir.classes}" />
