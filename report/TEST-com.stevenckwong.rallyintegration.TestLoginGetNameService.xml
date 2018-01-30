@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="stevens-mbp.ca.com" name="com.stevenckwong.rallyintegration.TestLoginGetNameService" skipped="0" tests="1" time="7.536" timestamp="2018-01-30T07:14:58">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="lib.dir" value="WebContent\WEB-INF\lib" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="env.SUDO_COMMAND" value="/opt/apache-ant-1.10.1/bin/ant -f build-mac.xml" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/classes" />
+    <property name="src.tests.dir" value="src-tests" />
+    <property name="env.PWD" value="/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo" />
+    <property name="user.country.format" value="AU" />
+    <property name="env.LANG" value="en_AU.UTF-8" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/opt/apache-ant-1.10.1" />
+    <property name="java.runtime.version" value="1.8.0_161-b12" />
+    <property name="package.name" value="RallyJavaIntegrationDemo.war" />
+    <property name="dest.dir" value="target" />
+    <property name="user.name" value="root" />
+    <property name="jsp.dir.name" value="RallyJavaIntegrationDemo" />
+    <property name="env.USER" value="root" />
+    <property name="env.SHELL" value="/bin/sh" />
+    <property name="env.__CF_USER_TEXT_ENCODING" value="0x0:0:0" />
+    <property name="ant.file.RallyJavaIntegrationDemo" value="/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/build-mac.xml" />
+    <property name="ant.file.type.RallyJavaIntegrationDemo" value="file" />
+    <property name="build.dir" value="build" />
+    <property name="env.PATH" value="/Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/opt/apache-ant-1.10.1/bin" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib" />
+    <property name="ant.project.default-target" value="PostInstallTest" />
+    <property name="ant.project.name" value="RallyJavaIntegrationDemo" />
+    <property name="java.version" value="1.8.0_161" />
+    <property name="user.timezone" value="" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/endorsed" />
+    <property name="temp.dir.meta-inf" value="temp/META-INF" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="env.SHLVL" value="0" />
+    <property name="meta-inf.dir" value="WebContent\META-INF" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="env.LOGNAME" value="root" />
+    <property name="ant.file" value="/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/build-mac.xml" />
+    <property name="os.version" value="10.13.3" />
+    <property name="temp.dir" value="temp" />
+    <property name="webdriver.chrome.driver" value="/opt/chromedriver" />
+    <property name="env.JAVA_MAIN_CLASS_6228" value="org.apache.tools.ant.launch.Launcher" />
+    <property name="path.separator" value=":" />
+    <property name="webapp.dir" value="/opt/apache-tomcat-8.5.27/webapps" />
+    <property name="java.vm.version" value="25.161-b12" />
+    <property name="report.dir" value="report" />
+    <property name="ant.library.dir" value="/opt/apache-ant-1.10.1/lib" />
+    <property name="temp.dir.lib" value="temp/WEB-INF/lib" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="env.TERM" value="xterm-256color" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="env.SUDO_UID" value="501" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="temp.dir.classes" value="temp/WEB-INF/classes" />
+    <property name="user.home" value="/var/root" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="/Users/steven/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+    <property name="java.class.path" value="/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/WebContent/WEB-INF/lib/byte-buddy-1.7.5.jar:/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/WebContent/WEB-INF/lib/client-combined-3.7.1.jar:/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/WebContent/WEB-INF/lib/commons-codec-1.10.jar:/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/WebContent/WEB-INF/lib/commons-codec-1.9.jar:/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/WebContent/WEB-INF/lib/commons-exec-1.3.jar:/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/WebContent/WEB-INF/lib/commons-logging-1.2.jar:/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/WebContent/WEB-INF/lib/fluent-hc-4.5.3.jar:/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/WebContent/WEB-INF/lib/gson-2.8.2.jar:/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/WebContent/WEB-INF/lib/guava-23.0.jar:/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/WebContent/WEB-INF/lib/httpclient-4.5.3.jar:/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/WebContent/WEB-INF/lib/httpclient-cache-4.5.3.jar:/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/WebContent/WEB-INF/lib/httpclient-win-4.5.3.jar:/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/WebContent/WEB-INF/lib/httpcore-4.4.6.jar:/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/WebContent/WEB-INF/lib/httpmime-4.5.3.jar:/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/WebContent/WEB-INF/lib/jna-4.1.0.jar:/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/WebContent/WEB-INF/lib/jna-platform-4.1.0.jar:/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/WebContent/WEB-INF/lib/junit.jar:/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/WebContent/WEB-INF/lib/org.hamcrest.core_1.3.0.v201303031735.jar:/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/WebContent/WEB-INF/lib/rally-rest-api-2.2.2-SNAPSHOT.jar:/opt/apache-tomcat-8.5.27/lib/annotations-api.jar:/opt/apache-tomcat-8.5.27/lib/catalina-ant.jar:/opt/apache-tomcat-8.5.27/lib/catalina-ha.jar:/opt/apache-tomcat-8.5.27/lib/catalina-storeconfig.jar:/opt/apache-tomcat-8.5.27/lib/catalina-tribes.jar:/opt/apache-tomcat-8.5.27/lib/catalina.jar:/opt/apache-tomcat-8.5.27/lib/ecj-4.6.3.jar:/opt/apache-tomcat-8.5.27/lib/el-api.jar:/opt/apache-tomcat-8.5.27/lib/jasper-el.jar:/opt/apache-tomcat-8.5.27/lib/jasper.jar:/opt/apache-tomcat-8.5.27/lib/jaspic-api.jar:/opt/apache-tomcat-8.5.27/lib/jsp-api.jar:/opt/apache-tomcat-8.5.27/lib/servlet-api.jar:/opt/apache-tomcat-8.5.27/lib/tomcat-api.jar:/opt/apache-tomcat-8.5.27/lib/tomcat-coyote.jar:/opt/apache-tomcat-8.5.27/lib/tomcat-dbcp.jar:/opt/apache-tomcat-8.5.27/lib/tomcat-i18n-es.jar:/opt/apache-tomcat-8.5.27/lib/tomcat-i18n-fr.jar:/opt/apache-tomcat-8.5.27/lib/tomcat-i18n-ja.jar:/opt/apache-tomcat-8.5.27/lib/tomcat-jdbc.jar:/opt/apache-tomcat-8.5.27/lib/tomcat-jni.jar:/opt/apache-tomcat-8.5.27/lib/tomcat-util-scan.jar:/opt/apache-tomcat-8.5.27/lib/tomcat-util.jar:/opt/apache-tomcat-8.5.27/lib/tomcat-websocket.jar:/opt/apache-tomcat-8.5.27/lib/websocket-api.jar:/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/temp/WEB-INF/classes:/opt/apache-ant-1.10.1/lib/junit.jar:/opt/apache-ant-1.10.1/lib/ant-launcher.jar:/opt/apache-ant-1.10.1/lib/ant.jar:/opt/apache-ant-1.10.1/lib/ant-junit.jar:/opt/apache-ant-1.10.1/lib/ant-junit4.jar" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.stevenckwong.rallyintegration.TestLoginGetNameService skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.PlainJUnitResultFormatter,/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/report/TEST-com.stevenckwong.rallyintegration.TestLoginGetNameService.txt formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/report/TEST-com.stevenckwong.rallyintegration.TestLoginGetNameService.xml crashfile=/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/junitvmwatcher4602056818393444835.properties propsfile=/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo/junit1177020594049769823.properties" />
+    <property name="tomcat.lib.dir" value="/opt/apache-tomcat-8.5.27/lib" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="junit.lib.dir" value="/opt/junit-4.12" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="env.HOME" value="/Users/steven" />
+    <property name="java.io.tmpdir" value="/var/folders/zz/zyxvpxvq6csfxvn_n0000000000000/T/" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="env.SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.Z6zUqsQ50l/Listeners" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="temp.dir.web-inf" value="temp/WEB-INF" />
+    <property name="java.ext.dirs" value="/Users/steven/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="env.SUDO_USER" value="steven" />
+    <property name="user.dir" value="/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo" />
+    <property name="package.file" value="target/RallyJavaIntegrationDemo.war" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="/Users/steven/eclipse-workspace/RallyJavaIntegrationDemo" />
+    <property name="pages.dir" value="WebContent" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="/opt/apache-ant-1.10.1/lib/ant.jar" />
+    <property name="web-inf.dir" value="WebContent\WEB-INF" />
+    <property name="env.USERNAME" value="root" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="env.MAIL" value="/var/mail/root" />
+    <property name="env.SUDO_GID" value="20" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="src.dir" value="src" />
+    <property name="ant.project.invoked-targets" value="PostInstallTest" />
+  </properties>
+  <testcase classname="com.stevenckwong.rallyintegration.TestLoginGetNameService" name="test" time="7.333" />
+  <system-out><![CDATA[Display Name: I'm Team Member 1 for B1
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 2.33.506106 (8a06c39c4582fbfbab6966dbb1c38a9173bfb1a2) on port 10197
+Only local connections are allowed.
+Jan 30, 2018 4:15:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+</testsuite>

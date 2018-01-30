@@ -1,0 +1,13 @@
+Testsuite: com.stevenckwong.rallyintegration.TestLoginGetNameService
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.536 sec
+------------- Standard Output ---------------
+Display Name: I'm Team Member 1 for B1
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+Starting ChromeDriver 2.33.506106 (8a06c39c4582fbfbab6966dbb1c38a9173bfb1a2) on port 10197
+Only local connections are allowed.
+Jan 30, 2018 4:15:00 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+------------- ---------------- ---------------
+
+Testcase: test took 7.332 sec
