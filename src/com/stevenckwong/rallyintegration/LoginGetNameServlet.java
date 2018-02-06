@@ -37,7 +37,7 @@ public class LoginGetNameServlet extends HttpServlet {
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
+		
 		String username = request.getParameter("username");
 		String apikey = request.getParameter("apikey");
 		
@@ -62,8 +62,10 @@ public class LoginGetNameServlet extends HttpServlet {
 		
 		rally.close();
 		
+		response.getWriter().append("<html><head><title>Rally Java Integration Demo</title></head><body>");
 		response.getWriter().append("<h1>Display Name is " + displayName + "</h1>\n");
 		response.getWriter().append("<input type=\"hidden\" id=\"displayName\" value=\"" + displayName + "\" />");
+		response.getWriter().append("</body></html>");
 		
 		doGet(request, response);
 		
