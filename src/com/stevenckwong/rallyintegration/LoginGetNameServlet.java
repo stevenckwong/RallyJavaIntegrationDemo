@@ -69,6 +69,7 @@ public class LoginGetNameServlet extends HttpServlet {
 		response.getWriter().append("<html><head><title>Rally Java Integration Demo</title></head><body>");
 		response.getWriter().append("<h1>Display Name is " + displayName + "</h1>\n");
 		response.getWriter().append("<input type=\"hidden\" id=\"displayName\" value=\"" + displayName + "\" />");
+		response.getWriter().append("<br><br>Watch this space... we are rolling out more features soon...");
 		response.getWriter().append("</body></html>");
 		
 		doGet(request, response);
