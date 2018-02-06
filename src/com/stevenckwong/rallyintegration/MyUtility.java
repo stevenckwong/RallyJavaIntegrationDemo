@@ -19,7 +19,12 @@ public class MyUtility {
 		
 		String displayName = result.substring(startIndex, endIndex);
 		return displayName;
-	}	
+	}
+	
+	// This method parses the Rally result from logging in and returns the First name field
+	public String parseResultForFirstName(String result) {
+		return "Stubbed First Name";
+	}
 	
 	
 	public RallyRestApi connectToRallyUsingAPIKey(String apiKey) {
