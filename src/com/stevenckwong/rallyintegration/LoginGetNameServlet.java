@@ -41,10 +41,14 @@ public class LoginGetNameServlet extends HttpServlet {
 		String username = request.getParameter("username");
 		String apikey = request.getParameter("apikey");
 		
-		URI uri = URI.create("https://rally1.rallydev.com");
+		// URI uri = URI.create("https://rally1.rallydev.com");
 		
 		//RallyRestApi rally = new RallyRestApi(uri, username, password);
-		RallyRestApi rally = new RallyRestApi(uri,apikey);
+		// RallyRestApi rally = new RallyRestApi(uri,apikey);
+		MyUtility myUtil = new MyUtility();
+		
+		RallyRestApi rally = myUtil.connectToRallyUsingAPIKey(apikey);
+		
 		String QueryString = "(UserName%20%3D%20"+username+")&start=1&pagesize=20";
 		String queryURL = "/user?query=" + QueryString + "&order=";
 
@@ -56,7 +60,7 @@ public class LoginGetNameServlet extends HttpServlet {
 		
 		String result = rally.getClient().doGet(queryURL);
 
-		MyUtility myUtil = new MyUtility();
+		
 		
 		String displayName = myUtil.parseResultForDisplayName(result);
 		

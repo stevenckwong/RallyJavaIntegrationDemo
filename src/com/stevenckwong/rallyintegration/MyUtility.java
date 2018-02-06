@@ -22,6 +22,12 @@ public class MyUtility {
 	}	
 	
 	
+	public RallyRestApi connectToRallyUsingAPIKey(String apiKey) {
+		URI uri = URI.create("https://rally1.rallydev.com");
+		RallyRestApi rally = new RallyRestApi(uri,apiKey);
+		
+		return rally;
+	}
 	
 	public String logTestRunResult(String testID, String testResult, String buildNumber) {
 		
@@ -38,7 +44,7 @@ public class MyUtility {
 		try {
 			rally.close();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			
 			e.printStackTrace();
 		}
 		
