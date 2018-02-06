@@ -52,10 +52,6 @@ public class TestLoginGetNameService {
 		System.out.println("Display Name: " + displayName);
 		assertEquals("I'm Team Member 1 for B1",displayName);
 		
-		// I added this during the demonstration 
-		
-		String helloWorld = "hellowWOrld";
-		
 		// Thread.sleep(2000);
 		driver.quit();
 		// driver.close();
